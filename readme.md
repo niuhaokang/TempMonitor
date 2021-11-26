@@ -40,12 +40,12 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build main.go
 GOOS=windows GOARCH=amd64 go build main.go
 
 # 当开发机器操作系统为Windows
-# 当开发机器操作系统为Linux，部署机器操作系统为Mac时
+# 部署机器操作系统为Mac时
 SET CGO_ENABLED=0
 SET GOOS=darwin3
 SET GOARCH=amd64
 go build main.go
-# 当开发机器操作系统为Linux，部署机器操作系统为Windows时
+# 部署机器操作系统为Windows时
 SET CGO_ENABLED=0
 SET GOOS=darwin3
 SET GOARCH=amd64
