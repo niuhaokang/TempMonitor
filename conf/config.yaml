@@ -1,0 +1,11 @@
+Email:
+  Sender: 1730594524@qq.com
+  Receiver: niuhaokang123@163.com
+  Password: guwimefnodujbhcb
+  Host: smtp.qq.com
+  Port: 465
+
+Machine:
+  ServerName: g3090
+  SafeTemp: 85
+  Command: gpustat
